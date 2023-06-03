@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mi Página de Carros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Carros - MX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">Carros Disponibles</h1>
+
+    <div class="carro">
+      <img src="carro1.jpg" alt="Carro 1">
+      <div class="info">
+        <h2>Carro 1</h2>
+        <p><strong>Marca:</strong> XYZ</p>
+        <p><strong>Modelo:</strong> ABC</p>
+        <p><strong>Año:</strong> 2022</p>
+      </div>
+    </div>
+
+    <div class="carro">
+      <img src="carro2.jpg" alt="Carro 2">
+      <div class="info">
+        <h2>Carro 2</h2>
+        <p><strong>Marca:</strong> PQR</p>
+        <p><strong>Modelo:</strong> DEF</p>
+        <p><strong>Año:</strong> 2021</p>
+      </div>
+    </div>
+
+    <div class="carro">
+      <img src="carro3.jpg" alt="Carro 3">
+      <div class="info">
+        <h2>Carro 3</h2>
+        <p><strong>Marca:</strong> XYZ</p>
+        <p><strong>Modelo:</strong> GHI</p>
+        <p><strong>Año:</strong> 2020</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de contacto -->
+  <section id="contacto" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form id="contacto-form">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 Mi Página de Carros. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

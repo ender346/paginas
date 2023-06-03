@@ -1,0 +1,61 @@
+/* Estilos CSS para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #333;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.carro {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.carro img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.carro .info {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.carro .info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.carro .info p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+section#contacto {
+  background-color: #222;
+  border-radius: 1rem;
+}
+
+section#contacto h2 {
+  color: #fff;
+}
+
+footer {
+  background-color: #111;
+  border-radius: 1rem;
+}
+
+footer p {
+  color: #fff;
+}
